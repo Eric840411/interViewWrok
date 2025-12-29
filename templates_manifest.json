@@ -1,0 +1,84 @@
+{
+  "default_threshold": 0.80,
+  "types": {
+    "ALLABOARD": {
+      "threshold": 0.75,
+      "templates": [
+        { "file": "ALLABOARD_A.png", "threshold": 0.40, "when": { "rtmp": "NWR2180" } },
+        { "file": "ALLABOARD_B.png", "threshold": 0.40, "when": { "rtmp": "NWR2183" } }
+      ]
+    },
+    "JJBXGRAND": {
+      "threshold": 0.75,
+      "templates": [
+        { "file": "JJBXGRAND.png" }
+      ]
+    },
+    "COINCOMBO": {
+      "threshold": 0.75,
+      "templates": [
+        { "file": "CC115.png", "threshold": 0.35, "when": { "rtmp": "COINCOMBO115" } }
+      ]
+    },
+    "CC_error": {
+      "threshold": 0.75,
+      "templates": [
+        { "file": "CC_error_1.png", "threshold": 0.80, "when": { "rtmp": "COINCOMBO115" } }
+      ]
+    },
+    "BULLBLITZ": {
+      "threshold": 0.75,
+      "templates": [
+        { "file": "BB.png", "threshold": 0.35, "when": { "rtmp": "WF9097" } }
+      ]
+    },
+    "LONGYIFA": {
+      "threshold": 0.75,
+      "templates": [
+        { "file": "LONGYIFA_A.png", "threshold": 0.36, "when": { "rtmp": "DHS3132" } },
+        { "file": "LONGYIFA_A.png", "threshold": 0.36, "when": { "rtmp": "DHS3133" } },
+        { "file": "LONGYIFA_B.png", "threshold": 0.36, "when": { "rtmp": "DHS3141" } },
+        { "file": "LONGYIFA_B.png", "threshold": 0.36, "when": { "rtmp": "DHS3143" } },
+        { "file": "LONGYIFA_C.png", "threshold": 0.36, "when": { "rtmp": "DHS3147" } },
+        { "file": "LONGYIFA_C.png", "threshold": 0.36, "when": { "rtmp": "DHS3148" } },
+        { "file": "LONGYIFA_D.png", "threshold": 0.36, "when": { "rtmp": "DHS3157" } },
+        { "file": "LONGYIFA_D.png", "threshold": 0.36, "when": { "rtmp": "DHS3158" } }
+      ]
+    },
+    "LIONLINK": {
+      "threshold": 0.75,
+      "templates": [
+        { "file": "LIONLINK.png", "threshold": 0.35 }
+      ]
+    },
+    "DFDC10PCT": {
+      "threshold": 0.75,
+      "templates": [
+        { "file": "DFDC10PCT_A.png", "threshold": 0.35, "when": { "rtmp": "NCH1165" } }
+      ]
+    },
+    "JJBX": {
+      "threshold": 0.75,
+      "templates": [
+        { "file": "J04.png", "threshold": 0.35, "when": { "rtmp": "JJBX004" } }
+      ]
+    },
+    "LIONSREWARD": {
+      "threshold": 0.75,
+      "templates": [
+        { "file": "2158.png", "threshold": 0.35, "when": { "rtmp": "NWR2158" } },
+        { "file": "2156.png", "threshold": 0.35, "when": { "rtmp": "NWR2156" } },
+        { "file": "2167.png", "threshold": 0.35, "when": { "rtmp": "NWR2167" } },
+        { "file": "2171.png", "threshold": 0.35, "when": { "rtmp": "NWR2171" } }
+      ]
+    },
+    "WLZBHELIX": {
+      "threshold": 0.75,
+      "templates": [
+        { "file": "5G.png", "threshold": 0.35, "when": { "rtmp": "DHS3193" } },
+        { "file": "WLZBHELIX_A.png", "threshold": 0.40, "when": { "rtmp": "NWR2191" } },
+        { "file": "WLZBHELIX_B.png", "threshold": 0.40, "when": { "rtmp": "NWR2192" } }
+      ]
+    }
+  }
+}

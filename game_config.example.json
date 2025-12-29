@@ -1,0 +1,14 @@
+[
+    {
+        "url": "https://example.com/game?token=YOUR_TOKEN_HERE&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=GAME_ID&lang=en_us&username=USERNAME&device=mobile&isPwaClaimed=1",
+        "rtmp": "RTMP_NAME",
+        "rtmp_url": "rtmp://example.com/live/RTMP_NAME_MAIN",
+        "game_title_code": "873-GAME-CODE",
+        "template_type": "GAME_TYPE",
+        "error_template_type": "ERROR_TYPE",
+        "enabled": true,
+        "enable_recording": true,
+        "enable_template_detection": true
+    }
+]
+

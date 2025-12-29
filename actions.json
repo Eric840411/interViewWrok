@@ -1,0 +1,38 @@
+{
+  "keyword_actions": {
+    "COINCOMBO": ["19,38"],
+    "JJBXGRAND": ["19,38"],
+    "JJBXGOLD": ["17,9"],
+    "JJBX": ["18,9"],
+    "DFDCGRAND": ["18,9"],
+    "KONAMI": [],
+    "MIGHTYCASHLINK": ["13,6"],
+    "LIGHTNINGLINK": ["12,7"],
+    "SUPERBURSTLINK":["18,37"],
+    "MOREPUFF": ["12,36","8,36"],
+    "WLZBHELIX": ["11,3"],
+    "ALLABOARD": [],
+    "LIONSREWARD":[],
+    "LIONLINK":["18,9"],
+    "WLZBLINK":["15,7"],
+    "LONGYIFA":["13,7","8,5"],
+    "RISINGROCKETS":["15,32"],
+    "BULLBLITZ":["5,4"]
+  },
+  "machine_actions": {
+    "COINCOMBO":   { "positions": ["5,32"], "click_take": false },
+    "JJBXGRAND":   { "positions": ["8,32"], "click_take": false },
+    "JJBXGOLD":    { "positions": ["5,5"],  "click_take": true  },
+    "JJBX":        { "positions": ["3,2","3,5","3,7","6,2","6,5","6,7","11,2","11,5","11,7","14,2","14,5","14,7"],  "click_take": true  },
+    "DFDCGRAND":   { "positions": ["5,5"],  "click_take": true  },
+    "DFDC":        { "positions": [],       "click_take": true  },
+    "LIGHTNINGLINK": { "positions": ["13,5"], "click_take": false },
+    "ARUZE":        { "positions": [],       "click_take": false  },
+    "MOREPUFF":    { "positions":[], "click_take":false},
+    "WLZBHELIX":   { "positions":["16,1","15,5"], "click_take":false},
+    "ALLABOARD":   { "positions":[], "click_take":false},
+    "LIONSREWARD":   { "positions":["5,5"], "click_take":false},
+    "LONGYIFA":    { "positions":["6,4","12,4"], "click_take":false},
+    "RISINGROCKETS":    { "positions":["18,9"], "click_take":false}
+  }
+}

@@ -1,0 +1,68 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 敏感配置檔案（包含真實 token、URL、帳號等）
+game_config.json
+dotenv.env
+accounts.csv
+accounts_bak.csv
+*.csv
+
+# 執行檔（二進位檔案，通常不應該上傳）
+ffmpeg.exe
+msedgedriver.exe
+*.exe
+
+# 輸出資料夾（可能包含敏感截圖/錄影）
+screenshots/
+stream_captures/
+output_path/
+template_debug/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日誌檔案
+*.log
+
+# 環境變數
+.env
+.env.local
+
+# 備份檔案
+*.bak
+*_bak.*
+*_backup.*
+
+# 編譯檔案
+*.spec
+dist/
+build/

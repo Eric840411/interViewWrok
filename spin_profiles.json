@@ -1,0 +1,37 @@
+{
+  "default": {
+    "mode": "fixed",                 
+    "interval_ms": 800,              
+    "jitter_ms": 300,                
+    "after_recording_delay_sec": 10, 
+    "on_fail_backoff_ms": [800, 1200, 1800], 
+    "cooldown_ms": 0                
+  },
+
+  "types": {
+    "MOREPUFF": { "interval_ms": 600, "jitter_ms": 150 },
+    "WLZBHELIX": {
+      "mode": "burst",
+      "burst": { "count": 3, "gap_ms": 400 }, 
+      "interval_ms": 900, "jitter_ms": 200
+    }
+  },
+
+  "machines": {
+    "WF9051": { "interval_ms": 500, "jitter_ms": 120 },
+    "NWR2174": {
+      "mode": "adaptive",
+      "interval_ms": 700,
+      "jitter_ms": 200,
+      "adaptive": {
+        "low_balance_threshold": 25000,
+        "slow_interval_ms": 1100
+      }
+    }
+  },
+
+  "named_profiles": {
+    "fast":  { "interval_ms": 500, "jitter_ms": 100 },
+    "slow":  { "interval_ms": 1200, "jitter_ms": 400 }
+  }
+}
