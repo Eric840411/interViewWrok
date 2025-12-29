@@ -1,0 +1,4 @@
+account,game_title_code,url
+example_account_1,873-GAME-CODE-1,https://example.com/game?token=YOUR_TOKEN_1
+example_account_2,873-GAME-CODE-2,https://example.com/game?token=YOUR_TOKEN_2
+

@@ -25,9 +25,9 @@ game_config.json
 dotenv.env
 accounts.csv
 accounts_bak.csv
-# 允許範例檔案
-!accounts.example.csv
 *.csv
+# 允許範例檔案（例外規則必須在通用規則之後）
+!accounts.example.csv
 
 # 執行檔（二進位檔案，通常不應該上傳）
 ffmpeg.exe
